@@ -87,13 +87,13 @@
   justify-content: space-between;
   background-color: #3b8dbd;
   padding: 0 10px;
-  height: 30px;
+  height: 40px;
 }
 
 .side-left .container__side-left .header__side-left .follow {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -271,16 +271,22 @@
 /* side kanan */
 .side-right {
   grid-area: 2 / 4 / 5 / 5;
+  background-color: rgb(235, 235, 235);
 }
 
 .side-right .container__side-right .container-card__side-right {
   padding: 20px;
-  border: 1px solid red;
 }
 
 .side-right .container__side-right .title__side-right {
-  border: 1px solid salmon;
-  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b8dbd;
+  height: 40px;
 }
 
 .side-right
@@ -290,7 +296,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 8px;
-  margin: 20px 0;
+  margin-bottom: 20px;
   border-bottom: 1px solid grey;
 }
 

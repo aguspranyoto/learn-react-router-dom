@@ -12,7 +12,7 @@ function SideRightComponent() {
   }, []);
 
   const PopularMovieList = () => {
-    return popularMovies.slice(0, 5).map((movie, i) => {
+    return popularMovies.slice(0, 3).map((movie, i) => {
       return (
         <div className="card__side-right" key={i}>
           <div className="card__img">
