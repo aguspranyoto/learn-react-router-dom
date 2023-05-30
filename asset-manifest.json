@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/learn-react-router-dom/static/css/main.2de6aa33.css",
-    "main.js": "/learn-react-router-dom/static/js/main.c956d379.js",
+    "main.css": "/learn-react-router-dom/static/css/main.0de0effe.css",
+    "main.js": "/learn-react-router-dom/static/js/main.1c7c685d.js",
     "static/js/787.14fe134e.chunk.js": "/learn-react-router-dom/static/js/787.14fe134e.chunk.js",
     "static/media/image-card.jpg": "/learn-react-router-dom/static/media/image-card.db42e5fbe9433f6d7652.jpg",
     "static/media/about.jpg": "/learn-react-router-dom/static/media/about.3d0dec73865622c95244.jpg",
     "index.html": "/learn-react-router-dom/index.html",
-    "main.2de6aa33.css.map": "/learn-react-router-dom/static/css/main.2de6aa33.css.map",
-    "main.c956d379.js.map": "/learn-react-router-dom/static/js/main.c956d379.js.map",
+    "main.0de0effe.css.map": "/learn-react-router-dom/static/css/main.0de0effe.css.map",
+    "main.1c7c685d.js.map": "/learn-react-router-dom/static/js/main.1c7c685d.js.map",
     "787.14fe134e.chunk.js.map": "/learn-react-router-dom/static/js/787.14fe134e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2de6aa33.css",
-    "static/js/main.c956d379.js"
+    "static/css/main.0de0effe.css",
+    "static/js/main.1c7c685d.js"
   ]
 }
