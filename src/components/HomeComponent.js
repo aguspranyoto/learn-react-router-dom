@@ -1,8 +1,9 @@
-import img from "../assets/img/about.jpg";
+import img from "../assets/img/404-image.png";
 import { getPopularMovieList, searchMovie } from "../api";
 import { useEffect, useState } from "react";
 
 function HomeComponent() {
+  const githubUrl = process.env.REACT_APP_URLGITHUB;
   const [popularMovies, setPopularMovies] = useState([]);
 
   useEffect(() => {
@@ -12,15 +13,19 @@ function HomeComponent() {
   }, []);
 
   const PopularMovieList = () => {
-    return popularMovies.slice(0, 9).map((movie, i) => {
+    return popularMovies.slice(0, 12).map((movie, i) => {
+      let poster = "";
+      console.log(poster);
+      if (movie.poster_path !== null) {
+        poster = `${process.env.REACT_APP_BASEIMGURL}/${movie.poster_path}`;
+      } else {
+        poster = img;
+      }
       return (
         <div className="card-container" key={i}>
           <div className="card-title">{movie.title}</div>
           <div className="card-img">
-            <img
-              src={`${process.env.REACT_APP_BASEIMGURL}/${movie.poster_path}`}
-              alt=""
-            />
+            <img src={poster} alt="" />
           </div>
           <div className="card-date">Release: {movie.release_date}</div>
           <div className="card-rate">

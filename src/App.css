@@ -4,7 +4,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 0.7fr repeat(2, 1fr) 0.7fr;
+  grid-template-columns: 0.4fr repeat(2, 1fr) 0.4fr;
   grid-template-rows: auto 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -214,7 +214,7 @@
 }
 
 .content .container__content {
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .top-home {
@@ -247,6 +247,7 @@
 }
 .card-img img {
   width: 100%;
+  height: 300px;
 }
 .card-title {
   font-weight: bold;
@@ -276,6 +277,8 @@
 
 .side-right .container__side-right .container-card__side-right {
   padding: 20px;
+  width: 70%;
+  margin: auto;
 }
 
 .side-right .container__side-right .title__side-right {
@@ -305,7 +308,6 @@
   .container-card__side-right
   .card__side-right
   .card__img {
-  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -318,7 +320,7 @@
   .card__side-right
   .card__img
   img {
-  width: 100%;
+  width: 120px;
 }
 
 .side-right
