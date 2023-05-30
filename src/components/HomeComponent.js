@@ -2,6 +2,10 @@ import img from "../assets/img/404-image.png";
 import { getPopularMovieList, searchMovie } from "../api";
 import { useEffect, useState } from "react";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+
 function HomeComponent() {
   const githubUrl = process.env.REACT_APP_URLGITHUB;
   const [popularMovies, setPopularMovies] = useState([]);
@@ -28,7 +32,9 @@ function HomeComponent() {
             <img src={poster} alt="" />
           </div>
           <div className="card-date">Release: {movie.release_date}</div>
-          <div className="card-rate">{movie.vote_average}</div>
+          <div className="card-rate">
+            <FontAwesomeIcon icon={faStar} /> {movie.vote_average}
+          </div>
         </div>
       );
     });
