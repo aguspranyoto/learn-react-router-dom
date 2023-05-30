@@ -214,7 +214,7 @@
 }
 
 .content .container__content {
-  padding: 40px;
+  padding: 0 40px;
 }
 
 .top-home {
@@ -222,15 +222,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 16px;
 }
 
 .Movie-search {
-  height: 48px;
-  font-size: 24px;
+  height: 32px;
+  font-size: 18px;
   margin-bottom: 32px;
-  padding: 16px;
   font-weight: bold;
-  width: 475px;
+  width: 50%;
 }
 
 .content__card-wrapper {

@@ -43,7 +43,7 @@ function HomeComponent() {
       <div className="top-home">
         <h1>AGUUD MOVIE MANIA</h1>
         <input
-          placeholder="cari film kesayangan..."
+          placeholder="cari film... minimal 4 karakter"
           className="Movie-search"
           onChange={({ target }) => search(target.value)}
         />
