@@ -15,7 +15,7 @@ function HomeComponent() {
   const PopularMovieList = () => {
     return popularMovies.slice(0, 12).map((movie, i) => {
       let poster = "";
-      console.log(poster);
+
       if (movie.poster_path !== null) {
         poster = `${process.env.REACT_APP_BASEIMGURL}/${movie.poster_path}`;
       } else {
@@ -28,9 +28,7 @@ function HomeComponent() {
             <img src={poster} alt="" />
           </div>
           <div className="card-date">Release: {movie.release_date}</div>
-          <div className="card-rate">
-            <div className="card-date">{movie.vote_average}</div>
-          </div>
+          <div className="card-rate">{movie.vote_average}</div>
         </div>
       );
     });
